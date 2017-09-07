@@ -1,0 +1,224 @@
+/* See bottom of css file for Bootstrap media query breakpoints for various devices. */
+
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, 'sans-serif';
+	font-size: 18px;
+	line-height: 27px;
+	color: #777;
+	background-image: url(../image/ep_naturalwhite.png)
+}
+
+container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+header {
+	font-family: "Georgia", Times, "Times New Roman", "Serif"; 
+	background-color: #fff;
+	box-sizing: border-box;
+	border-bottom: 3px solid #ccc;
+	/**position: ; **/
+	width: 100%;
+	margin: 0 0 30px;
+	height: auto;
+}
+
+#Logo { 
+	box-sizing: border-box;
+	float: left;
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 240px;
+	height: 80px;
+	text-decoration:none;
+	text-align: center;
+	padding: 30px;
+
+}
+#HeaderLogo {
+	margin-top: -20px;
+	
+}
+
+nav {
+	width: auto;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 40px; 
+	display: inline;
+}	
+
+#NavThreeLink {
+	text-align: center;
+	padding-right:  50px;
+}
+
+nav a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, 'sans-serif';
+	text-decoration: none;
+	color: #777;
+	border-left: 2px solid #C2C2C2;
+	padding-left: 10px;
+}
+
+h2 {
+	font-family: "Georgia", Times, Times New Roman, "Serif";
+	color: #4aaaa5;
+	text-align: left;
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+	line-height: 49px;	
+}
+
+h3 {
+	font-family: "Georgia", Times, Times New Roman, "Serif";
+	color: #4aaaa5;
+	border-bottom: 3px solid #ccc;
+	margin-bottom: 20px;
+	line-height: 49px;	
+}
+
+section {
+	box-sizing: border-box;
+	padding: 0 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	max-width: 650px;
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #fff;
+	border-color: #ddd;
+}
+
+p {
+	background-color: white;
+	margin-bottom: -5px;
+	text-align: left;
+	padding-left: 170px;
+}
+
+aside {
+	box-sizing: border-box;
+	background-color: white;
+	float: left;
+	margin-left: 40px;
+	max-width: 270px;
+	width: 100%;
+	height: auto;	
+	text-align: center;
+	padding: 0 20px;
+	padding-bottom: 20px;
+}
+.social {
+	padding: 2px;
+}
+
+footer {
+	box-sizing: border-box;
+	font-size: 12px;
+	border-top: 8px solid #4aaaa5;
+	clear: both;
+	margin: 30 0 0 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #979797;
+	color: #fff;
+}
+
+.PortfolioPhoto {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.Portfolio {
+	width: 270px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+.Portfolio:nth-child(even)
+{
+	margin-right: 40px;
+}
+.Portfolio img {
+	width: 100%;
+	border: 0 none;
+	opacity: .9;	
+}
+.Portfolio h3 {
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 0px;
+	padding: 15px;
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 89%;
+	border-bottom: none;
+} 
+
+
+.contact-form ul{
+	margin-bottom: 15px;
+	list-style-type: none;
+	margin-left: -40px;
+}
+.contact-form li{
+	margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+	height: 35px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+textarea{
+	height: 200px;
+}
+input[type=submit] {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	padding: 10px 30px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+/*** Media queries for screen sizes ***/
+
+
+/* Bootstrap uses the following media query ranges or breakpoints.
+// Extra small (xs) devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small (sm) devices (landscape phones, less than 768px)
+@media (max-width: 767px) { ... }
+
+
+// Medium (md) devices (tablets, less than 992px)
+@media (max-width: 991px) { ... }
+
+// Large (lg) devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }
+
+// Extra large (xl) devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+*/
